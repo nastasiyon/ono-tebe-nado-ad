@@ -1,19 +1,20 @@
 /* === ГЛОБАЛЬНАЯ СТИЛИЗАЦИЯ === */
 .header {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 500px 150px 450px;
     align-items: center;
-    padding-inline: 50px;
     background-color: #fff;
     height: 293px;
 }
 
 .header__links-list {
+    position: relative;
+    left: 58px;
+    bottom: 4px;
     display: inline-flex;
     gap: 32px;
     width: 391.48px;
     align-items: center;
-    padding-top: 159px;
     list-style-type: none;
 }
 
@@ -25,17 +26,19 @@
 }
 
 .header__logo {
-    padding-left: 36.52px;
-    padding-top: 92px;
-    margin-right: 234px;
+    position: relative;
+    right: 20px;
     height: 105px;
     width: 148px;
 }
 
 .header__address {
-    padding-top: 156px;
+    font-size: 18px;
+    position: relative;
+    right: 80px;
     justify-self: end;
     max-width: 260px;
+    line-height: 1.3;
     text-align: left;
     font-style: normal;
     a1 {
@@ -85,25 +88,30 @@
     text-align: left;
     display: block;
     letter-spacing: 30px;
+    position: relative;
+    bottom: 33px;
+    left: 6px;
 }
 
 .aligned-text_center {
     position: relative;
     left: -6px;
+    top: 3px;
     text-align: center;
     letter-spacing: 30px;
 }
 
 .aligned-text_right {
     position: relative;
-    right: 18px;
+    left: -16px;
+    top: 37px;
     text-align: right;
     letter-spacing: 30px;
 }
 
 .cover__description {
     position: relative;
-    top: 70px;
+    top: 105px;
     z-index: 2;
     display: flex;
     flex-direction: row;
@@ -175,7 +183,6 @@
     color: #fff;
     background-size: cover;
     background-position: center;
-    border-radius: 4px;
     overflow: hidden;
 }
 
@@ -245,7 +252,7 @@
     display: inline-block;
     font-size: 20px;
     font-weight: 400;
-    padding-top: 53px;
+    padding-top: 39px;
     padding-left: 40px;
     text-decoration: underline;
 }
