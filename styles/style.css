@@ -123,7 +123,7 @@
 
 .cover__description-text {
     word-spacing: 20px;
-    letter-spacing: 80%;
+    letter-spacing: 0%;
 }
 
 .bet-button {
@@ -270,7 +270,7 @@
     align-items: center;
 }
 
-.about__column2{
+.about__column2 {
     align-items: left;
 }
 
@@ -317,7 +317,6 @@
 }
 
 .footer__address {
-    font-style: normal;
     font-style: normal;
     font-size: 18px;
     line-height: 1.45;
