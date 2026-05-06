@@ -59,8 +59,7 @@
     padding: 165px 50px 207px 50px;
     background-color: #1a1a1a;
     background-image: url('../images/cover.jpg');
-    max-width: 1100px;
-    width: 100%;
+    width: 1100px;
     height: 757px;
     background-size: cover;
     background-position: center;
@@ -77,7 +76,7 @@
 
 .cover__title {
     position: relative;
-    width: 100%;
+    width: 1050px;
     height: 385px;
     padding-top: 40px;
     z-index: 2;
@@ -262,7 +261,7 @@
 
 .about {
     margin-top: 120px;
-    max-width: 1100px;
+    width: 1100px;
     display: grid;
     grid-template-columns: 340px 1fr;
     gap: 60px;
@@ -289,7 +288,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 35px auto 320px 35px;
+    margin: 35px 765px 320px 35px;
     flex-shrink: 0;
 }
 
@@ -313,8 +312,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 180px 40px 40px;
-    max-width: 1100px;
-    width: 100%;
+    width: 1100px;
     background-color: #fff;
     gap: 60px;
     align-items: start;
